@@ -1,0 +1,21 @@
+{
+  "name": "data-analyst-portfolio",
+  "version": "1.0.0",
+  "description": "Premium portfolio website for data analyst",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server . -p 3000 -o",
+    "start": "http-server . -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "portfolio",
+    "data-analyst",
+    "web"
+  ],
+  "author": "Aniruddha Parthasarathy",
+  "license": "MIT"
+}
