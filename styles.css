@@ -105,13 +105,14 @@ body {
 .hero-tagline {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: clamp(38px, 3vw, 48px);
+  font-size: clamp(38px, 2vw, 48px);
   line-height: 1.2;
   margin-bottom: 32px;
   color: #202124;
   animation: fadeUp 800ms ease forwards;
   opacity: 0;
-  white-space: nowrap; /* Prevents wrapping on wide screens */
+  /* white-space: nowrap;  */
+  text-align: center;
 }
 
 /* Allow wrapping on small screens */
@@ -130,8 +131,9 @@ body {
 .hero-name h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size: clamp(24px, 4vw, 30px);
+  font-size: clamp(24px, 4vw, 28px);
   margin-bottom: 8px;
+
 }
 
 .hero-title {
